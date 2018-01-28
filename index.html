@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WELCOME TO VICTORIA</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Merriweather:300,400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+
+  <div class="wrapper">
+
+<!-- top -->
+    <header class="top">
+      <h1><a href="#">WELCOME TO VICTORIA</a></h1>
+    </header>
+<!-- nav -->
+    <nav class="flex-nav">
+      <a href="#" class="toggleNav">☰ Menu</a>
+      <ul>
+        <li><a href="#">DISCOVER</a></li>
+        <li><a href="#">FAMILY ACTIVITIES</a></li>
+        <li><a href="#">RESTAURANTS</a></li>
+        <li><a href="#">MUSEUMS</a></li>
+        <li class="social">
+          <a href="#"><i class="fa fa-twitter"></i></a>
+
+        </li>
+        <li class="social"><a href="#"><i class="fa fa-github"></i></a></li>
+        <li class="social"><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li class="social"><a href="#"><i class="fa fa-instagram"></i></a></li>
+
+
+
+      </ul>
+    </nav>
+
+    <!-- picture -->
+    <section class="banner">
+      <img src="images/Victoria.jpg" alt="VICTORIA">
+    </section>
+
+    <!-- details -->
+    <section class="details">
+
+      <p>Victoria, capital of British Columbia, sits on the craggy southern end of Vancouver Island. With abundant parkland, it’s known for outdoor activities. The city's British colonial past shows in its Victorian architecture, including stately Craigdarroch Castle mansion. Butchart Gardens, with 55 acres of vivid floral displays, plus statuary, water features and a carousel, is one of many formal gardens in the city.</p>
+    </section>
+
+    <!-- signup -->
+    <section class="signup">
+      <h3>For More Information</h3>
+      <form action="" class="signup">
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Email Address">
+        <input type="submit" value="Send me more information">
+      </form>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+      <p>&copy Ryan Wiens</p>
+    </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script>
+
+    $(function() {
+      $('.toggleNav').on('click',function() {
+        $('.flex-nav ul').toggleClass('open');
+      });
+    });
+
+  </script>
+
+
+
+  </div>
+
+</body>
+</html>
